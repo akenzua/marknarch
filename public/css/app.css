@@ -269,6 +269,14 @@ span.carousel-control-prev-icon {
   padding-bottom: 80px;
 }
 
+.projects {
+  background-image: url(/images/try2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .people {
   background-color: #f6f6f6;
   background-image: url(/images/bg-pattern.png);
@@ -804,5 +812,6 @@ button.accordion.active:after {
 }
 
 .pro-pic img {
-  max-height: 150px;
+  max-height: 200px;
+  padding: 0;
 }
