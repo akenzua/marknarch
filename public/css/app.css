@@ -309,7 +309,7 @@ span.carousel-control-prev-icon {
 }
 
 #people #ceo {
-  background-image: url(/public/images/people1.png);
+  background-image: url(public/images/people1.png);
   background-size: cover;
 }
 
