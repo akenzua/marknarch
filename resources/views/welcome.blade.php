@@ -265,7 +265,7 @@ Vendor Enquiry, Placing Order, Inspection and Expediting, Shipping, and Worldwid
             <span class="identity">03 <span class="pname">Projects</span></span>
             <div class="container">
                 <div class="row pro-pic">
-                    <img src="/images/projects/2.jpg" class="col-md-3">
+                    <img src="/images/projects/2.jpg" class="col-md-4">
 
                 </div>
            </div>
