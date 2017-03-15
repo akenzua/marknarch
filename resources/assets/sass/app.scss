@@ -129,7 +129,7 @@ span .brand{
 
 //About sections
 .aboutus{
-    background-image: url(public/images/bg-pattern.png);
+    background-image: url(../images/bg-pattern.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -281,7 +281,7 @@ margin: 0;
 }
 .first{
     height: 85vh;
-    background-image: url(public/images/10.jpg);
+    background-image: url(../images/10.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -301,7 +301,7 @@ span.carousel-control-prev-icon{
     padding-bottom: 80px;
 }
 .projects{
-    background-image: url(public/images/try2.jpg);
+    background-image: url(../images/try2.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -311,7 +311,7 @@ span.carousel-control-prev-icon{
 // People
 .people{
     background-color:  lighten($grey, 7%);
-  background-image: url(public/images/bg-pattern.png);
+  background-image: url(../images/bg-pattern.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -343,15 +343,15 @@ span.carousel-control-prev-icon{
     background-size: cover;
 }
 #people #civil{
-    background-image: url(public/images/people4.png);
+    background-image: url(../images/people4.png);
     background-size: cover;
 }
 #people #projectm{
-    background-image: url(public/images/people8.png);
+    background-image: url(../images/people8.png);
     background-size: cover;
 }
 #people #account{
-    background-image: url(public/images/people9.png);
+    background-image: url(../images/people9.png);
     background-size: cover;
 }
 #people .quote{

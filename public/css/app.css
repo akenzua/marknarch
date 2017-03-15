@@ -93,7 +93,7 @@ span .brand {
 }
 
 .aboutus {
-  background-image: url(/images/bg-pattern.png);
+  background-image: url(../images/bg-pattern.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -247,7 +247,7 @@ span .brand {
 
 .first {
   height: 85vh;
-  background-image: url(/images/10.jpg);
+  background-image: url(../images/10.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -270,7 +270,7 @@ span.carousel-control-prev-icon {
 }
 
 .projects {
-  background-image: url(/images/try2.jpg);
+  background-image: url(../images/try2.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -279,7 +279,7 @@ span.carousel-control-prev-icon {
 
 .people {
   background-color: #f6f6f6;
-  background-image: url(/images/bg-pattern.png);
+  background-image: url(../images/bg-pattern.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -314,17 +314,17 @@ span.carousel-control-prev-icon {
 }
 
 #people #civil {
-  background-image: url(/images/people4.png);
+  background-image: url(../images/people4.png);
   background-size: cover;
 }
 
 #people #projectm {
-  background-image: url(/images/people8.png);
+  background-image: url(../images/people8.png);
   background-size: cover;
 }
 
 #people #account {
-  background-image: url(/images/people9.png);
+  background-image: url(../images/people9.png);
   background-size: cover;
 }
 
