@@ -1,0 +1,804 @@
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans|Crete+Round|Francois+One|Hammersmith+One|Patua+One|Playfair+Display|Rokkitt|Slabo+27px|Indie+Flower|Noticia+Text|Open+Sans);body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Crete Round', serif;
+  position: relative;
+}
+
+header {
+  width: 100%;
+}
+
+.banner {
+  background-color: rgba(69, 191, 85, 0.5);
+  height: 100vh;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+  border: none;
+}
+
+.navbar {
+  margin-right: -15px;
+  padding-right: 15px;
+  margin-left: -15px;
+  padding-left: 15px;
+  z-index: 300;
+  border-bottom: 1px solid #97D49F;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #22632a;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-success {
+  background-color: #22632a;
+  background-color: #97D49F;
+}
+
+span .brand {
+  margin-bottom: 0;
+  padding-right: 0;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-family: 'Crete Round', serif;
+}
+
+.navbar-brand .and,
+.brand .and {
+  font-family: 'Crete Round', serif;
+  color: #e4e4e4;
+  font-weight: 900;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+  .modal-dialog {
+    width: 85%;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .desc {
+    padding-top: 80;
+  }
+
+  .desc h5 {
+    font-size: 15px !important;
+  }
+}
+
+.fa-bars {
+  color: #22632a;
+  line-height: 2.2;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.dot {
+  color: #8C0000;
+  font-size: 35px;
+}
+
+.aboutus {
+  background-image: url(/images/bg-pattern.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.aboutus,
+.project {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.aboutus p,
+.project p {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.aboutus h5,
+.project h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #ffbfbf;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.identity {
+  font-size: 3.1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #8C0000;
+  margin-left: -10px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.empty {
+  height: 80px;
+}
+
+#blogs {
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.pname {
+  color: #ffbfbf;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.services {
+  background-color: rgba(69, 191, 85, 0.3);
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 40px;
+}
+
+.intro {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 35px;
+  padding-left: 0;
+}
+
+.intro p {
+  margin-left: 60px;
+}
+
+.main {
+  margin-bottom: 20px;
+}
+
+.quote {
+  padding-left: 25px;
+  padding-right: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.fa-quote-right {
+  margin-left: -40px;
+}
+
+.fa-quote-left {
+  margin-top: 25px;
+}
+
+.details {
+  color: #22632a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 220px;
+}
+
+.details li {
+  list-style: none;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.desc {
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background: transparent;
+}
+
+.desc h5 {
+  color: #2c8137;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-align: left;
+  font-size: 30px;
+}
+
+.desc p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-fluid {
+  padding: 0;
+}
+
+.carousel-indicators {
+  bottom: 20px;
+  border: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #ffbfbf;
+}
+
+.carousel-indicators li {
+  background-color: #e4e4e4;
+}
+
+.cola {
+  background-color: rgba(0, 50, 115, 0.5);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.first {
+  height: 85vh;
+  background-image: url(/images/10.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin: 0;
+}
+
+a.carousel-control-next,
+a.carousel-control-previous,
+span.carousel-control-prev-icon,
+span.carousel-control-prev-icon {
+  display: none;
+}
+
+.projects,
+.people {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.people {
+  background-color: #f6f6f6;
+  background-image: url(/images/bg-pattern.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#people blockquote {
+  border-left: none;
+  min-height: 300px;
+  position: relative;
+}
+
+#people blockquote .quote {
+  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(69, 191, 85, 0.6);
+  padding: 20px 10px;
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  font-weight: 900;
+  border-radius: 0 50px 0 0;
+}
+
+#people blockquote .quote:hover {
+  background-color: rgba(255, 191, 191, 0.7);
+  font-weight: 900;
+}
+
+#people #ceo {
+  background-image: url(/images/people1.png);
+  background-size: cover;
+}
+
+#people #civil {
+  background-image: url(/images/people4.png);
+  background-size: cover;
+}
+
+#people #projectm {
+  background-image: url(/images/people8.png);
+  background-size: cover;
+}
+
+#people #account {
+  background-image: url(/images/people9.png);
+  background-size: cover;
+}
+
+#people .quote {
+  font-size: 13px;
+  line-height: 100%;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+#people .quote .more,
+#people .designation {
+  opacity: 0;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+#people .quote:hover .more,
+#people .quote:hover .designation {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  display: block;
+  opacity: 1;
+  font-size: .8em;
+  line-height: 120%;
+}
+
+footer {
+  background-color: #22632a;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+footer .identity {
+  color: #f6f6f6;
+  padding-bottom: 80px;
+  font-size: 3.1em;
+}
+
+footer .pname {
+  color: rgba(69, 191, 85, 0.4);
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+footer legend {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+footer .form-control,
+.top-head .form-control {
+  background-color: #22632a;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid white;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-control:-moz-placeholder {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-control::-moz-placeholder {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-control:-ms-input-placeholder {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inputMessage {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer form label {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer textarea {
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer input[type=submit],
+.top-head button,
+.dropped button {
+  background: #22632a;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+footer input[type=submit]:hover,
+.top-head button:hover,
+.dropped button:hover {
+  background: white;
+  color: #22632a;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #22632a;
+  font-weight: bold;
+}
+
+footer input[type=text],
+.top-head input[type=text] {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.contact {
+  color: white;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px !important;
+}
+
+.btn-fb,
+.btn-tw,
+.btn-gplus,
+.btn-li {
+  color: white;
+  background-color: #22632a;
+  border: 1px solid white;
+}
+
+.btn-fb:hover,
+.btn-tw:hover,
+.btn-gplus:hover,
+.btn-li:hover {
+  color: #22632a;
+  background-color: white;
+}
+
+/*footer .dark{
+ 	background-color: #252427;
+ 	min-height: 50px;
+ 	vertical-align: middle;
+ }*/
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background: #97D49F;
+    padding: 20px 15px 20px 15px;
+    margin: 0 0 0 -15px;
+  }
+
+  .navbar-collapse ol {
+    counter-reset: li;
+    /* Initiate a counter */
+    margin-left: 0;
+    /* Remove the default left margin */
+    padding-left: 0;
+    /* Remove the default left padding */
+    color: #656464;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) and (max-width: 768px) {
+  .navbar-collapse ol {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse ol > li {
+    position: relative;
+    /* Create a positioning context */
+    margin: 5px 0 5px 2em;
+    /* Give each list item a left margin to make room for the numbers */
+    padding: 0 8px;
+    /* Add some spacing around the content */
+    list-style: none;
+    /* Disable the normal item numbering */
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 768px) {
+  .navbar-collapse ol > li {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) and (max-width: 768px) {
+  .navbar-collapse ol > li {
+    padding-bottom: 2px 2px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse ol > li:before {
+    content: "0" counter(li);
+    /* Use the counter as content */
+    counter-increment: li;
+    /* Increment the counter by 1 */
+    /* Position and style the number */
+    position: absolute;
+    top: -2px;
+    left: -2em;
+    width: 2em;
+    /* Some space between the number and the content in browsers that support
+	   generated content but not positioning it (Camino 2 is one example) */
+    margin-right: 8px;
+    padding: 4px;
+    color: #8C0000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .navbar-collapse li ol,
+  .navbar-collapse li ul {
+    margin-top: 6px;
+  }
+
+  .navbar-collapse ol ol li:last-child {
+    margin-bottom: 0;
+  }
+
+  .navbar-collapse .socials {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .navbar-collapse .socials .fa {
+    margin-right: 15px;
+  }
+
+  .top-head {
+    display: none;
+  }
+
+  #nav-menu {
+    left: 15px;
+    right: 15px;
+  }
+
+  .contact {
+    text-align: left;
+  }
+
+  .dropped {
+    padding: 15px;
+    background-color: #22632a;
+  }
+
+  .extraNav {
+    line-height: 3;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 700px;
+    margin: 30px auto;
+  }
+
+  .extraNav {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .modal-dialog {
+    max-width: 1000px;
+    margin: 30px auto;
+  }
+}
+
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.copyright p {
+  color: white;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+#info {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#info h4,
+#info h5 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fly {
+  position: absolute;
+  background-color: transparent;
+  top: 100px;
+  right: 20px;
+}
+
+.fly .red-bar {
+  height: 6px;
+  width: 40%;
+  background: #8C0000;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.fly h3 {
+  color: #22632a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.fly p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+button.accordion {
+  background-color: rgba(69, 191, 85, 0.3);
+  color: #1b5022;
+  color: #efefef;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #b7e6bd;
+}
+
+.xample {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+button.accordion.active,
+button.accordion:hover {
+  background-color: #fff;
+  color: #1b5022;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+div.panel {
+  padding: 0 18px;
+  background-color: rgba(69, 191, 85, 0.3);
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+div.panel p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+div.panel ul {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+button.accordion:after {
+  content: '\2795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+.blog {
+  padding-top: 80px;
+}
+
+.blogw {
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.read .date,
+.read .meta {
+  color: #0e2a12;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.read span {
+  font-size: 12px;
+}
+
+.read .title {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  margin-bottom: 30px;
+}
+
+.read img {
+  max-height: 110px;
+  margin: 0 15px 5px 0;
+}
+
+.read .data {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.modal-img {
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 45px;
+  color: #22632a;
+  font-weight: 900;
+  font-family: 'Crete Round', serif;
+  line-height: 1;
+}
+
+.metadata {
+  padding: 0 15px;
+  color: #e4e4e4;
+}
+
+.modal-body p {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+}

@@ -1,0 +1,777 @@
+
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+// Variables
+@import "variables";
+
+
+body{
+    // background:#45BF55;
+    padding: 0;
+    margin: 0;
+    font-family: 'Crete Round', serif;
+    position: relative;
+
+}
+header{
+//   background-image: url(/images/2.jpeg);
+//   background-position: center center;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+  //padding-top: 0;
+  //margin-top: 0;
+  width: 100%;
+  
+}
+
+.banner{
+    //background-color:lighten($base-color, 45%);
+    background-color: rgba(69, 191, 85, .5);
+    height: 100vh;
+}
+#top{
+    
+}
+button.navbar-toggler.navbar-toggler-right{
+        border: none;
+
+    }
+
+ .navbar{
+//     padding:0;
+     margin-right: -15px;
+     padding-right: 15px;
+     margin-left: -15px;
+     padding-left: 15px;
+     z-index:300;
+     border-bottom: 1px solid #97D49F;
+     line-height: 1;
+     font-family: 'Open Sans', sans-serif;
+     
+     font-weight: 700;
+     background-color: #fff;
+// 
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #22632a;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-success{
+    background-color: #22632a;
+    background-color: #97D49F;
+}
+.navbar-header{
+    
+}
+span .brand{
+    margin-bottom:0;
+    padding-right: 0;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+}
+ .navbar-brand{
+//     color:darken($base-color, 25%);
+//     font-weight: 400;
+     font-family: 'Crete Round', serif;
+//     font-size: 25px;
+//     //word-spacing: -12px;
+//     &:hover{
+//         color: darken($base-color, 25%);
+//     }
+ }
+.navbar-brand .and, .brand .and{
+    // font-family: 'Noticia Text', serif;
+    font-family: 'Crete Round', serif;
+    color:$grey;
+    font-weight: 900;
+}
+@media (min-width: 576px) and (max-width: 800px) { 
+    .modal-dialog{
+        width:85%;
+    }
+     .modal-title{
+         font-size:20px;
+     }
+        .desc{
+            padding-top: 80;
+            h5{
+                font-size: 15px !important;
+            }
+            
+        }
+        
+    }
+.fa-bars{
+    color:darken($base-color, 25%);
+    line-height: 2.2;
+}
+.pull-right {
+  float: right !important;
+}
+// #nav-menu{
+//     background-color : $grey;
+//     background-color: rgba(69, 191, 85, .8);
+//     height: 80vh;
+//     display: none;
+//     position: fixed;
+//     z-index: 100;
+//     right: 15px;
+// }
+.dot{
+    color:$red;
+    font-size:35px;
+}
+
+
+//About sections
+.aboutus{
+    background-image: url(/images/bg-pattern.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.aboutus, .project{
+
+    background-color:  lighten($grey, 7%);
+    padding-top:80px;
+    padding-bottom: 80px;
+
+    
+    p{
+        text-align:left;
+        font-family: 'Open Sans', sans-serif;
+        // font-weight: 300;
+    }
+    h5{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color:lighten($red, 60%);
+    }
+}
+.about{
+    margin-top: 70px;
+}
+.identity{
+    font-size: 3.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: $red;
+    margin-left: -10px;
+    padding-bottom: 80px;
+    margin-bottom:80px;
+    
+}
+.empty{
+    height:80px;
+}
+#blogs{
+     padding-bottom: 80px;
+    margin-bottom:80px;
+}
+.pname{
+    color:lighten($red, 60%);
+    padding-bottom: 80px;
+    margin-bottom:80px;
+}
+.services{
+    background-color: rgba(69, 191, 85, .3);
+    border-bottom: 1px solid $grey;
+    padding-bottom: 40px;
+}
+.intro{
+    padding-top:80px;
+    padding-bottom: 80px;
+
+    padding-right:35px;
+    padding-left: 0;
+    p{
+        margin-left: 60px;
+    }
+}
+.main{
+    margin-bottom: 20px;
+}
+.quote{
+    padding-left:25px;
+    padding-right:45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+.fa-quote-right{
+    margin-left: -40px;
+}
+.fa-quote-left{
+    margin-top: 25px;
+}
+
+.details{
+    //background-color: rgba(69, 191, 85, .4);
+    
+    color:  darken($base-color, 25%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 220px;
+    ul{
+        
+    }
+    li{
+        list-style: none;
+        
+        
+        font-weight:900;
+        line-height: 1.5;
+    }
+}
+.identity{
+    
+}
+.desc{
+    
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background: transparent;
+    
+    
+    
+    h5{
+        color:  darken($base-color, 17%);
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-align:left; 
+        font-size: 30px;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+.img-fluid{
+    padding: 0;
+}
+.carousel-indicators{
+   bottom:20px;
+   
+    border: 0;
+    .active{
+        background-color: lighten($red, 60%);
+        
+    }
+    li{
+        background-color: $grey;
+    }
+   
+    
+}
+ //#carouselExampleIndicators
+ .cola{
+background-color: rgba(0, 50, 115, .5);
+width: 100%;
+height: 100%;
+margin: 0;
+}
+.first{
+    height: 85vh;
+    background-image: url(/images/10.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+margin:0;
+  
+}
+a.carousel-control-next, 
+a.carousel-control-previous,
+span.carousel-control-prev-icon, 
+span.carousel-control-prev-icon{
+    display: none;
+}
+.projects, .people{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+// People
+.people{
+    background-color:  lighten($grey, 7%);
+  background-image: url(/images/bg-pattern.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#people blockquote{
+    
+    //margin: 0;
+    border-left: none;
+    min-height: 300px;
+    position: relative;
+}
+#people blockquote .quote{
+    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(69, 191, 85, .6);
+    padding: 20px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    font-weight: 900;
+    border-radius: 0 50px 0 0;
+}
+#people blockquote .quote:hover{
+    background-color: rgba(255, 191, 191, .7);
+    font-weight: 900;
+}
+#people #ceo{
+    background-image: url(/images/people1.png);
+    background-size: cover;
+}
+#people #civil{
+    background-image: url(/images/people4.png);
+    background-size: cover;
+}
+#people #projectm{
+    background-image: url(/images/people8.png);
+    background-size: cover;
+}
+#people #account{
+    background-image: url(/images/people9.png);
+    background-size: cover;
+}
+#people .quote{
+    font-size: 13px;
+    line-height:100%;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+}
+#people .quote .more, #people .designation{
+    opacity:0;
+    font-size:0;
+    line-height:0;
+    padding-top:10px;
+    font-weight: 900;
+}
+#people .quote:hover .more, #people .quote:hover .designation{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    display: block;
+    opacity:1;
+    font-size: .8em;
+    line-height:120%;
+}
+// Footer
+footer{
+ 	
+    background-color:  darken($base-color, 25%);
+    font-family: 'Open Sans', sans-serif;
+ 	margin-top: 70px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	height: auto;
+     
+     .identity{
+         color: lighten($grey, 7%);
+         padding-bottom: 80px;
+         font-size: 3.1em;
+     }
+     .pname{
+         color: rgba(69, 191, 85, .40);
+     }
+     
+ }
+ .footer{
+     margin-top: 50px;
+     font-size: 14px;
+ }
+ footer legend{
+ 	color: white;
+     font-family: 'Roboto', sans-serif;
+     margin-bottom: 40px;
+ }
+ 
+ footer .form-control, .top-head .form-control{
+ 	background-color: darken($base-color, 25%);
+    //  color:  darken($base-color, 25%);
+    font-family: 'Open Sans', sans-serif;
+ 	border: 1px solid white;
+ 
+ }
+ .form-control::-webkit-input-placeholder {
+  color: white; 
+  font-family: 'Open Sans', sans-serif;
+ }
+ .form-control:-moz-placeholder {
+  color: white; 
+  font-family: 'Open Sans', sans-serif;
+ }
+ .form-control::-moz-placeholder {
+  color: white; 
+  font-family: 'Open Sans', sans-serif;
+ }
+ .form-control:-ms-input-placeholder {
+  color: white; 
+  font-family: 'Open Sans', sans-serif;
+ }
+ .inputMessage{
+ 	color: white;
+     font-family: 'Open Sans', sans-serif;
+ }
+ footer form label{
+ 	color: white;
+     font-family: 'Open Sans', sans-serif;
+ }
+ footer textarea{ 
+     color:white !important;
+     font-family: 'Open Sans', sans-serif;
+ }
+ footer input[type=submit], .top-head button, .dropped button{
+ 	background: darken($base-color, 25%);
+ 	color: white;
+ 	border: 1px solid white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+ }
+ footer input[type=submit]:hover, .top-head button:hover, .dropped button:hover{
+ 	background: white;
+    color:  darken($base-color, 25%);
+    font-family: 'Open Sans', sans-serif;
+ 	border: 1px solid darken($base-color, 25%);
+ 	font-weight: bold;
+ }
+ footer input[type=text], .top-head input[type=text]{
+ 	
+ 	color: #fff;
+ 	font-family: 'Open Sans', sans-serif;
+     font-size:14px;
+ 	
+ }
+ 
+ .contact{
+ 	color: white;
+ 	text-align:  right;
+     font-family: 'Open Sans', sans-serif;
+     font-size:14px !important;
+ }
+ .btn-fb, .btn-tw, .btn-gplus, .btn-li{
+ 	color: white;
+ 	background-color:darken($base-color, 25%);
+ 	border: 1px solid white;
+ }
+ 
+ .btn-fb:hover, .btn-tw:hover, .btn-gplus:hover, .btn-li:hover{
+ 	color: darken($base-color, 25%);
+ 	background-color: white;
+ }
+ 
+ /*footer .dark{
+ 	background-color: #252427;
+ 	min-height: 50px;
+ 	vertical-align: middle;
+ }*/
+ @media(max-width:767px){
+        .navbar-collapse{
+    background: #97D49F;
+    padding: 20px 15px 20px 15px;
+    margin: 0 0 0 -15px;
+    //Menu style
+ol {
+	counter-reset:li; /* Initiate a counter */
+	margin-left:0; /* Remove the default left margin */
+	padding-left:0; /* Remove the default left padding */
+    //margin-top:20px;
+   // border-bottom:1px solid darken($grey, 50%);
+    color: darken($grey, 50%);
+    padding-bottom: 0;
+    //border-top:1px solid darken($grey, 50%);
+
+     @media (min-width: 576px) and (max-width: 768px) { 
+        padding-bottom: 10px;
+    }
+}
+ol > li {
+	position:relative; /* Create a positioning context */
+	margin:5px 0 5px 2em; /* Give each list item a left margin to make room for the numbers */
+	padding:0 8px; /* Add some spacing around the content */
+	list-style:none; /* Disable the normal item numbering */
+	// border-top:2px solid #666;
+	// background:#f6f6f6;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    @media (min-width: 768px) { 
+        font-size: 11px;
+     }
+      @media (min-width: 576px) and (max-width: 768px) { 
+        padding-bottom: 2px 2px;
+        margin-bottom:0;
+    }
+     
+
+}
+ol > li:before {
+	content:"0" counter(li); /* Use the counter as content */
+	counter-increment:li; /* Increment the counter by 1 */
+	/* Position and style the number */
+	position:absolute;
+	top:-2px;
+	left:-2em;
+	// -moz-box-sizing:border-box;
+	// -webkit-box-sizing:border-box;
+	// box-sizing:border-box;
+	 width:2em;
+	/* Some space between the number and the content in browsers that support
+	   generated content but not positioning it (Camino 2 is one example) */
+	margin-right:8px;
+	padding:4px;
+	// border-top:2px solid #666;
+	color:$red;
+	font-family: 'Roboto', sans-serif;
+	font-weight:900;
+	
+	text-align:center;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+//Socials
+.socials{
+    color:#fff;
+    display:block;
+    //width:100%;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;   
+
+
+}
+.socials .fa{
+    margin-right: 15px;
+    // @media (min-width: 576px) and (max-width: 768px) { 
+    //     display: none;
+    // }
+}
+    
+}
+.navbar{
+        
+        
+    }
+ 	.top-head{
+ 		display: none;
+ 
+ 	}
+     #nav-menu{
+         left: 15px;
+         right: 15px;
+     }
+ 	.contact{
+ 		text-align: left;
+ 	}
+ 	.dropped{
+ 		padding:15px;
+ 		background-color: darken($base-color, 25%);
+ 	}
+ 	.extraNav{
+ 		line-height: 3;
+ 		color: white;}
+ 	
+ }
+ 
+ @media(min-width:768px){
+     .modal-dialog {
+    max-width: 700px;
+    margin: 30px auto;
+    
+}
+ 	.extraNav{
+ 		display: none;
+ 	}
+     .socials{
+         display: none;
+     }
+    //  .desc{
+    //      padding-top: 320px;
+    //  }
+ }
+ @media(min-width:1000px){
+     .modal-dialog {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+ }
+ @media(min-width:801px){
+
+ }
+ .copyright{
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+     margin: 0 auto;
+ }
+ .copyright p{
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 0.75em;
+     }
+     #info{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        h4, h5{
+            font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        }
+     }
+     .fly{
+         position:absolute;
+         background-color:transparent;
+         top:100px;
+         right:20px;
+         .red-bar{
+             height: 6px;
+             width: 40%;
+             background: $red;
+             margin-bottom: 70px;
+             margin-top: 30px;
+         }
+         
+         h3{
+            color:  darken($base-color, 25%);
+            font-family: 'Roboto', sans-serif;
+            font-size: 38px;
+            font-weight: 900;
+         }
+         p{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            margin-bottom: 30px;
+         }
+     }
+    /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: rgba(69, 191, 85, .3);
+    color: darken($base-color, 30%);
+    color: #efefef;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    border-bottom: 1px solid lighten($base-color, 30%);
+}
+.xample{
+    font-family:'Roboto', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #fff;
+    color: darken($base-color, 30%);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: rgba(69, 191, 85, .3);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+    
+    p{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 100;
+    }
+}
+.bolder{
+    font-weight: 600;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.blog{
+    padding-top:80px;
+}
+
+.blogw{
+    cursor:pointer;
+    padding-left:15px;
+}
+.read{
+    
+    .date, .meta{
+        color: darken($base-color, 40%);
+        font-weight:400;
+        font-family:'Roboto', sans-serif;
+    }
+    span{
+        font-size:12px;
+    }
+    .title{
+        font-weight:900;
+        font-size:18px;
+        font-family: 'Crete Round', serif;
+        margin-bottom:30px;
+    }
+    img{
+        max-height:110px;
+        margin:0 15px 5px 0;
+    }
+    .data{
+        border-bottom: 1px solid $grey;
+        
+        
+    }
+    span{
+        
+    }
+}
+.modal-img{
+    width:100%;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+.modal-title{
+    font-size: 45px;
+    color:darken($base-color, 25%);
+    font-weight:900;
+    font-family: 'Crete Round', serif;
+    line-height:1;
+}
+.metadata{
+    padding: 0 15px;
+    color:$grey;
+}
+.modal-body{
+    p{
+        font-weight:400;
+        font-family:'Roboto', sans-serif;
+        margin-top: 15px;
+    }
+}
