@@ -245,7 +245,7 @@ span .brand {
   margin: 0;
 }
 
-.first {
+.first, .second {
   height: 85vh;
   background-image: url(../images/9.jpg);
   background-position: center center;
@@ -254,6 +254,9 @@ span .brand {
   background-repeat: no-repeat;
   width: 100vw;
   margin: 0;
+}
+.second{
+  background-image: url(../images/8.jpg);
 }
 
 a.carousel-control-next,
